@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <style>
+        .container {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 100vh;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .button {
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-family: 'Oswald';
+            font-size: 22px;
+            background-color: rgb(230, 179, 173);
+            color: rgb(255, 255, 255);
+            border: 2px outset #aa3b04;
+            width: 80%; /* Adjusted width to fit two buttons in a row */
+            padding: 10px;
+            height: 100px;
+            margin-bottom: 10px; /* Added margin to create space between buttons */
+        }
+
+        /* Added a new class for the columns */
+        .column {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            float:left;
+            width: 50%;
+        }
+
+        .column1 {
+            display:flex;
+            flex-direction:column;
+            float: right;
+            width: 50%;
+        }
+
+        /* Centered the h1 text */
+        .h1 {
+            font-family: 'Oswald';
+            font-size: 36px;
+            text-align: center;
+            color: white;
+            text-shadow: -1px -1px 0 #aa3b04, 1px -1px 0 #aa3b04, -1px 1px 0 #aa3b04, 1px 1px 0 #aa3b04;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="h1">Dashboard</h1>
+
+    <div class="column">
+        <button class="button button1">Account</button>
+    </div>
+
+    <div class="column1">
+    <button class="button button2">Settings</button>
+  </div>
+
+    <div class="column">
+        <button class="button button3">Goals</button> 
+    </div>
+
+    <div class="column1">
+    <button class="button button4">TimeBuddy</button>
+    </div>
+
+    <div class="column">
+        <button class="button button5">Analytics</button>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
